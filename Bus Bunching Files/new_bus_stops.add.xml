@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 10/05/20 00:10:11 by Eclipse SUMO netedit Version 1.5.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Users\novec\Google%20Drive\FYP\busbunching\testtwo.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\novec\Google%20Drive\FYP\busbunching\testtwo.net.xml"/>
+        <output.street-names value="true"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="C:\Users\novec\Google%20Drive\FYP\busbunching\new_bus_stops.add.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="busStop_0" lane="-101161164#17_1" startPos="48.42" endPos="58.42" lines="902"/>
+    <busStop id="busStop_2" lane="-101161164#9_1" startPos="43.69" endPos="53.69" lines="902"/>
+    <busStop id="busStop_10" lane="28356384#1_1" startPos="11.87" endPos="21.87" lines="902"/>
+    <busStop id="busStop_11" lane="24708389#0_1" startPos="22.21" endPos="32.21" lines="902"/>
+    <busStop id="busStop_12" lane="24708389#4_1" startPos="193.56" endPos="203.56" lines="902"/>
+    <busStop id="busStop_13" lane="24708389#6_1" startPos="44.19" endPos="54.19" lines="902"/>
+    <busStop id="busStop_14" lane="576045485#2_1" startPos="143.44" endPos="153.44" lines="902"/>
+    <busStop id="busStop_15" lane="783848440#1_1" startPos="181.51" endPos="191.51" lines="902"/>
+    <busStop id="busStop_16" lane="754987531#0_1" startPos="33.84" endPos="43.84" lines="902"/>
+    <busStop id="busStop_17" lane="782688684_1" startPos="72.81" endPos="82.81" lines="902"/>
+    <busStop id="busStop_18" lane="167052839#1_1" startPos="15.96" endPos="25.96" lines="902"/>
+    <busStop id="busStop_19" lane="167052839#4_1" startPos="24.24" endPos="34.24" lines="902"/>
+    <busStop id="busStop_1" lane="-101161164#13_1" startPos="41.75" endPos="51.75" lines="902"/>
+    <busStop id="busStop_20" lane="167052839#9_1" startPos="57.37" endPos="67.37" lines="902"/>
+    <busStop id="busStop_21" lane="205164362#0_1" startPos="42.48" endPos="52.48" lines="902"/>
+    <busStop id="busStop_22" lane="205164362#13_1" startPos="51.62" endPos="61.62" lines="902"/>
+    <busStop id="busStop_23" lane="205146927#0_1" startPos="27.82" endPos="37.82" lines="902"/>
+    <busStop id="busStop_24" lane="205146927#4_1" startPos="18.14" endPos="28.14" lines="902"/>
+    <busStop id="busStop_25" lane="104083179#3_1" startPos="83.76" endPos="93.76" lines="902"/>
+    <busStop id="busStop_26" lane="104083182#1_1" startPos="49.75" endPos="59.75" lines="902"/>
+    <busStop id="busStop_27" lane="797998282_1" startPos="33.52" endPos="43.52" lines="902"/>
+    <busStop id="busStop_28" lane="104083180#5_1" startPos="22.55" endPos="32.55" lines="902"/>
+    <busStop id="busStop_29" lane="115625823#5_1" startPos="78.16" endPos="88.16" lines="902"/>
+    <busStop id="busStop_3" lane="-101161164#3_1" startPos="87.96" endPos="97.96" lines="902"/>
+    <busStop id="busStop_30" lane="205164458#0_1" startPos="10.19" endPos="20.19" lines="902"/>
+    <busStop id="busStop_31" lane="798040716#2_1" startPos="39.13" endPos="49.13" lines="902"/>
+    <busStop id="busStop_32" lane="798040715#1_1" startPos="201.61" endPos="211.61" lines="902"/>
+    <busStop id="busStop_33" lane="784743314#0_1" startPos="118.12" endPos="128.12" lines="902"/>
+    <busStop id="busStop_34" lane="158080151_1" startPos="54.27" endPos="64.27" lines="902"/>
+    <busStop id="busStop_35" lane="784742799#2_1" startPos="40.74" endPos="50.74" lines="902"/>
+    <busStop id="busStop_36" lane="614464262#0_1" startPos="78.10" endPos="88.10" lines="902"/>
+    <busStop id="busStop_37" lane="575677860_1" startPos="23.79" endPos="33.79" lines="902"/>
+    <busStop id="busStop_38" lane="173769835#5_1" startPos="47.52" endPos="57.52" lines="902"/>
+    <busStop id="busStop_39" lane="785046222#3_1" startPos="32.75" endPos="42.75" lines="902"/>
+    <busStop id="busStop_4" lane="713499652_1" startPos="25.86" endPos="35.86" lines="902"/>
+    <busStop id="busStop_40" lane="785046222#8_1" startPos="76.97" endPos="86.97" lines="902"/>
+    <busStop id="busStop_41" lane="785046222#10_1" startPos="200.74" endPos="210.74" lines="902"/>
+    <busStop id="busStop_42" lane="575601122#1_1" startPos="63.67" endPos="73.67" lines="902"/>
+    <busStop id="busStop_43" lane="575601111#0_1" startPos="17.34" endPos="27.34" lines="902"/>
+    <busStop id="busStop_44" lane="125501925#3_1" startPos="32.89" endPos="42.89" lines="902"/>
+    <busStop id="busStop_45" lane="4716792#0_1" startPos="30.37" endPos="40.37" lines="902"/>
+    <busStop id="busStop_46" lane="755244633#1_1" startPos="64.66" endPos="74.66" lines="902"/>
+    <busStop id="busStop_47" lane="755244633#3_1" startPos="204.49" endPos="214.49" lines="902"/>
+	<busStop id="busStop_48" lane="791798535#0_1" startPos="38.38" endPos="48.38" lines="902"/>
+    <busStop id="busStop_49" lane="791798540_1" startPos="21.30" endPos="31.30" lines="902"/>
+    <busStop id="busStop_5" lane="206508268#0_1" startPos="40.03" endPos="50.03" lines="902"/>
+    <busStop id="busStop_50" lane="198504449#3_1" startPos="208.44" endPos="218.44" lines="902"/>
+    <busStop id="busStop_51" lane="198504449#8_1" startPos="160.33" endPos="170.33" lines="902"/>
+    <busStop id="busStop_52" lane="579369854#1-AddedOnRampEdge_1" startPos="74.51" endPos="84.51" lines="902"/>
+    <busStop id="busStop_53" lane="782742027-AddedOnRampEdge_1" startPos="67.55" endPos="77.55" lines="902"/>
+    <busStop id="busStop_54" lane="24269831#1_1" startPos="21.76" endPos="31.76" lines="902"/>
+	<busStop id="busStop_55" lane="204716918#5_1" startPos="57.48" endPos="67.48" lines="902"/>
+    <busStop id="busStop_56" lane="713448844#0_1" startPos="81.35" endPos="91.35" lines="902"/>
+	<busStop id="busStop_57" lane="4677783#0_1" startPos="22.44" endPos="32.44" lines="902"/>
+	<busStop id="busStop_58" lane="4677783#4_1" startPos="125.27" endPos="135.27" lines="902"/>
+    <busStop id="busStop_59" lane="753248610_1" startPos="73.01" endPos="83.01" lines="902"/>
+    <busStop id="busStop_6" lane="206508278#1_1" startPos="134.01" endPos="144.01" lines="902"/>
+	<busStop id="busStop_60" lane="575743528#2_1" startPos="13.51" endPos="23.51" lines="902"/>
+    <busStop id="busStop_61" lane="108059680#0_1" startPos="21.42" endPos="31.42" lines="902"/>
+    <busStop id="busStop_62" lane="108059680#4_1" startPos="41.28" endPos="51.28" lines="902"/>
+    <busStop id="busStop_7" lane="12072251#0_1" startPos="11.26" endPos="21.26" lines="902"/>
+    <busStop id="busStop_8" lane="388225634#1_1" startPos="29.67" endPos="39.67" lines="902"/>
+    <busStop id="busStop_9" lane="28356386_1" startPos="57.21" endPos="67.21" lines="902"/>
+    <instantInductionLoop id="instantInductionLoop_0" lane="-101161164#17_1" pos="54.58" name="chelsea" file="chelsea" vTypes="bus"/>
+    <instantInductionLoop id="instantInductionLoop_1" lane="754987531#0_1" pos="37.88" name="haileybury" file="haileybury" vTypes="bus"/>
+    <instantInductionLoop id="instantInductionLoop_2" lane="713499652_1" pos="29.39" name="edithvale" file="edithvale" vTypes="bus"/>
+    <instantInductionLoop id="instantInductionLoop_3" lane="158080151_1" pos="61.44" name="brandonpark" file="brandonpark" vTypes="bus"/>
+    <instantInductionLoop id="instantInductionLoop_4" lane="104083182#1_1" pos="57.35" name="springvale" file="springvale" vTypes="bus"/>
+    <instantInductionLoop id="instantInductionLoop_5" lane="4716792#0_1" pos="37.25" name="glen" file="glen" vTypes="bus"/>
+    <instantInductionLoop id="instantInductionLoop_6" lane="108059680#4_1" pos="46.96" name="nunawading" file="nunawading" vTypes="bus"/>
+    <instantInductionLoop id="instantInductionLoop_7" lane="782742027-AddedOnRampEdge_1" pos="73.20" name="bwdhwy" file="bwdhwy" vTypes="bus"/>
+</additional>

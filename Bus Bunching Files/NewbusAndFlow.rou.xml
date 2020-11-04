@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 10/05/20 00:12:55 by Eclipse SUMO netedit Version 1.5.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Users\novec\Google%20Drive\FYP\busbunching\testtwo.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\novec\Google%20Drive\FYP\busbunching\testtwo.net.xml"/>
+        <output.street-names value="true"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="C:\Users\novec\Google%20Drive\FYP\busbunching\new_bus_stops.add.xml"/>
+        <route-files value="C:\Users\novec\Google%20Drive\FYP\busbunching\NewbusAndFlow.rou.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="bus" vClass="bus" color="241,0,0" maxSpeed = "70" personCapacity = "70"/>
+    <route edges="-101161164#17 -101161164#16 -101161164#15 -101161164#14 -101161164#13 -101161164#12 -101161164#11 -101161164#9 -101161164#8 -101161164#7 -101161164#6 -101161164#5 -101161164#3 -101161164#2 -101161164#1 -101161164#0 -792192367 -792183756 107538151#0 107538151#2 713499652 713499651 198536465#0 198536465#1 198536465#2 206508268#0 206508268#1 206508268#2 206508268#3 206508278#0 206508278#1 206508278#2 206508278#3 206508278#4 -320772016#3 -320772016#1 -320772016#0 56434211 172401845#4 172401845#5 798048231#0 798048231#1 12072251#0 12072251#1 798048226#0 798048230 798048229 388225634#0 388225634#1 12071725 327686099 327686100#0 89183174 28356386 28356386-AddedOffRampEdge 28356384#1 579685071#0 579685071#1-AddedOnRampEdge 579685071#1 579685071#1-AddedOffRampEdge 754340339 785089739#0 785089739#1 785089738 24708389#0 24708389#1 24708389#2 24708389#3 24708389#4 24708389#5 24708389#6 755276733#0 755276733#1 576045485#0 576045485#1 576045485#2 783848440#0 783848440#1 783848440#2 783848440#2-AddedOffRampEdge 754987531#0 783892838#0 783892838#1 315592038-AddedOnRampEdge 315592038 783892837#2 755276032 755276032-AddedOffRampEdge 579056842#0 579056834 782688685#0 782688685#1 782688684 167052839#1 167052839#2 167052839#3 167052839#4 167052839#5 167052839#6 167052839#7 167052839#8 167052839#9 679988876#0 679988876#1 205164362#0 205164362#1 205164362#2 205164362#3 205164362#4 205164362#5 205164362#6 205164362#7 205164362#8 205164362#9 205164362#10 205164362#11 205164362#12 205164362#13 104083178#0 104083178#1 104083178#2 754372045 4534792 784248601 205146927#0 205146927#1 205146927#3 205146927#4 205146927#7 205146927#8 205146927#9 205146927#10 205146927#11 205146927#12 205146927#13 104083179#0 104083179#2 104083179#3 104083179#4 205146921#1 205146921#2 205146921#3 104083182#1 206575968#1 206575964#0 206575964#1 206575964#2 206575964#3 797998282 104083180#0 104083180#1 104083180#2 104083180#4 104083180#5 115625823#1 115625823#3 115625823#4 115625823#5 115625823#6 115625823#8 115625823#9 783081210 569425649#0 569425649#1 569425649#3 205164458#0 755331417 569425648 782994694 782994693 798040716#1 798040716#2 798040715#0 798040715#1 798040715#2 798040715#3 784743314#0 784743314#2 784743314#3 784743314#4 784743314#5 784743314#6 784743314#7 784743314#8 158080151 767986482#0 715834092#1 206575589 784742799#0 784742799#1 784742799#2 614464262#0 614464262#1 614464262#2 614464262#3 614464262#4 395925844#0 395925844#1-AddedOnRampEdge 395925844#1 575677860 779603303 173769835#2 173769835#4 173769835#5 785043642 755269966#0 198505426 785041167 785046222#0 785046222#1 785046222#2 785046222#3 785046222#4 785046222#5 785046222#6 785046222#7 785046222#8 785046222#9 785046222#10 165171777 165171777-AddedOffRampEdge 754104557#0 754104556 785083431 575601122#0 575601122#1 575601122#2 575601122#3 575601111#0 575601111#2 125501925#0 125501925#1 125501925#2 125501925#3 125501925#4 125501925#5 125501925#9 146170850#0 146170850#1 4716792#0 -4716792#0 29769761 29768925 755244633#0 755244633#1 755244633#3 755244633#7 791798535#0 791798535#1 791798535#2 791798540 755244632#0 791798542 198504449#0 198504449#1 198504449#3 198504449#4 198504449#5 198504449#6 198504449#7 198504449#8 198504449#8-AddedOffRampEdge 198504449#9 579369854#0 579369854#1-AddedOnRampEdge 579369854#1 125357562#0 125357562#1 125357562#2-AddedOnRampEdge 125357562#2 125357562#3 782213541 782213541-AddedOffRampEdge 198504244#0 198504244#2 319404594#0 319404594#1 319404594#2 387618674#0 387618674#1 782742027-AddedOnRampEdge 782742027 24269831#0 24269831#1 24269831#2 570563126 204716918#0 204716918#1 204716918#2 204716918#3 204716918#4 204716918#5 204716918#6 204716918#7 204716918#8 713448844#0 713448844#1 713448843 783094936 783094932 783094935 578997239#0 578997239#2 578997239#3 578997239#4 716989777#0 716989777#1 716989777#2 783090804 4677783#0 4677783#2 4677783#3 4677783#4 4677783#5 4677783#6 575743523 753248610 575743528#1 575743528#2 575743528#3 108059680#0 108059680#1 108059680#2 108059680#3 108059680#4" color="yellow" id="b_1">
+        <stop busStop="busStop_0" duration="60.00"/>
+        <stop busStop="busStop_4" duration="60.00"/>
+        <stop busStop="busStop_16" duration="60.00"/>
+        <stop busStop="busStop_26" duration="60.00"/>
+        <stop busStop="busStop_34" duration="60.00"/>
+        <stop busStop="busStop_45" duration="60.00"/>
+        <stop busStop="busStop_53" duration="60.00"/>
+        <stop busStop="busStop_62" duration="60.00"/>
+    </route>
+    <vehicle id="b0" type="bus" depart="60.00" line = "902" route="b_1"/>
+    <flow id="bwdhwy0" begin="0.00" color="blue" from="387618674#1" to="4677783#2" end="7200.00" vehsPerHour="1166.18"/>
+    <flow id="bwdhwy1" begin="0.00" color="blue" from="755223213-AddedOffRampEdge" to="786436288#1" end="7200.00" vehsPerHour="1166.18"/>
+    <flow id="canterbury0" begin="0.00" color="blue" from="783090804" to="753220722" end="7200.00" vehsPerHour="1208.05"/>
+    <flow id="centre0" begin="0.00" color="blue" from="104083182#1" to="798040715#0" end="7200.00" vehsPerHour="666.05"/>
+    <flow id="centre1" begin="0.00" color="blue" from="782994695" to="205146924#0" end="7200.00" vehsPerHour="666.05"/>
+    <flow id="chelt0" begin="0.00" color="blue" from="785089738" to="783892837#2" end="7200.00" vehsPerHour="791.03"/>
+    <flow id="chelt1" begin="0.00" color="blue" from="205163824-AddedOffRampEdge" to="785089735" end="7200.00" vehsPerHour="791.03"/>
+    <flow id="edith0" begin="0.00" color="blue" from="713499652" to="89183174" end="7200.00" vehsPerHour="150.00"/>
+    <flow id="edith1" begin="0.00" color="blue" from="798056885" to="792192367" end="7200.00" vehsPerHour="369.99"/>
+    <flow id="fern0" begin="0.00" color="blue" from="715834092#1" to="785046222#1" end="7200.00" vehsPerHour="1200.00"/>
+    <flow id="fern1" begin="0.00" color="blue" from="785045807-AddedOffRampEdge" to="206575587" end="7200.00" vehsPerHour="1125.00"/>
+    <flow id="flow_0" begin="0.00" color="blue" from="794801325#1" to="776348415" end="7200.00" vehsPerHour="1208.05"/>
+    <flow id="glen0" begin="0.00" color="blue" from="785083431" to="198504449#3" end="7200.00" vehsPerHour="1125.00"/>
+    <flow id="glen1" begin="0.00" color="blue" from="579371844" to="785042187#3" end="7200.00" vehsPerHour="1125.00"/>
+    <flow id="glenstation0" begin="0.00" color="blue" from="29774810#1" to="755244633#1" via="-4716792#1" end="7200.00" vehsPerHour="200.00"/>
+    <flow id="glenstation1" begin="0.00" color="blue" from="125501925#9" to="146170803#0" via="4716792#2 146300405#0" end="7200.00" vehsPerHour="200.00"/>
+    <flow id="gov0" begin="0.00" color="blue" from="798048229" to="24708389#5" end="7200.00" vehsPerHour="875.06"/>
+    <flow id="gov1" begin="0.00" color="blue" from="785089737-AddedOffRampEdge" to="798048227" end="7200.00" vehsPerHour="791.03"/>
+    <flow id="highbury0" begin="0.00" color="blue" from="791798542" to="24269831#0" end="7200.00" vehsPerHour="1041.06"/>
+    <flow id="highbury1" begin="0.00" color="blue" from="198504245" to="755244628#1" via="791798538" end="7200.00" vehsPerHour="1041.06"/>
+    <flow id="nepean0" begin="0.00" color="0,6,255" from="-101161164#22" to="-761273143#30" via="-101161164#17 -101161164#16 -101161164#14" end="5000000.00" vehsPerHour="500.00"/>
+    <flow id="nepean1" begin="0.00" color="0,255,215" from="761273143#29" to="101161164#19" end="5000000.00" vehsPerHour="500.00"/>
+    <flow id="sbypass0" begin="0.00" color="blue" from="315592038-AddedOnRampEdge" to="206575968#1" via="104083182#1" end="7200.00" vehsPerHour="707.96"/>
+    <flow id="sbypass1" begin="0.00" color="blue" from="205146924#0" to="315592039#0" end="7200.00" vehsPerHour="707.96"/>
+    <flow id="waverly0" begin="0.00" color="blue" from="785041167" to="575601122#0" end="7200.00" vehsPerHour="1041.06"/>
+    <flow id="waverly1" begin="0.00" color="blue" from="754104562-AddedOffRampEdge" to="785041165#0" end="7200.00" vehsPerHour="1041.06"/>
+    <flow id="wellington0" begin="0.00" color="blue" from="782994694" to="784742799#1" end="7200.00" vehsPerHour="832.95"/>
+    <flow id="wellington1" begin="0.00" color="blue" from="206575592" to="205164461#1" end="7200.00" vehsPerHour="832.95"/>
+    <vehicle id="b1" type="bus" depart="170.00" line = "902" route="b_1"/>
+    <vehicle id="b2" type="bus" depart="1860.00" line = "902" route="b_1"/>
+    <vehicle id="b3" type="bus" depart="1970.00" line = "902" route="b_1"/>
+    <vehicle id="b4" type="bus" depart="3660.00" line = "902" route="b_1"/>
+    <vehicle id="b5" type="bus" depart="3770.00" line = "902" route="b_1"/>
+    <vehicle id="b6" type="bus" depart="5460.00" line = "902" route="b_1"/>
+    <vehicle id="b7" type="bus" depart="5570.00" line = "902" route="b_1"/>
+	<vehicle id="b8" type="bus" depart="9060.00" line = "902" route="b_1"/>
+</routes>

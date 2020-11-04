@@ -1,0 +1,11 @@
+<configuration>
+    <input>
+        <net-file value="testtwo.net.xml"/>
+        <route-files value="NewbusAndFlow.rou.xml"/>
+		<additional-files value="new_bus_stops.add.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="5000000"/>
+    </time>
+</configuration>
