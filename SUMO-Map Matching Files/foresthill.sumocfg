@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 05/25/20 19:06:08 by Eclipse SUMO GUI Version 1.5.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\novec\Google%20Drive\FYP\SUMO%20Demo\foresthill.net.xml"/>
+        <route-files value="C:\Users\novec\Google%20Drive\FYP\SUMO%20Demo\foresthill.rou.xml"/>
+    </input>
+
+</configuration>
